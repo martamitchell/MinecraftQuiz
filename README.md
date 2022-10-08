@@ -1,4 +1,5 @@
-Quiz is an Android mobile application built with XML and Java in Android Studio.
+Quiz is a simple Android mobile application built with XML and Java in Android Studio.
+Its main goal is to show different types of user input as a quiz.
 
 ![image](https://user-images.githubusercontent.com/46302098/194727569-f4b12901-c451-4ab6-b55d-2ca51a0537f6.png)
 
