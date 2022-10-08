@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Frank\'s Minecraft Quiz</string>
+    <string name="character">1. What Minecraft character has 4 legs and can explode?</string>
+    <string name="zombie">Zombie</string>
+    <string name="creeper">Creeper</string>
+    <string name="villager">Villager</string>
+    <string name="mine">2. What materials can you mine for in Minecraft?</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="gold">Gold</string>
+    <string name="emeralds">Emeralds</string>
+    <string name="dig">3. Which way should you NOT dig in Minecraft?</string>
+    <string name="sideways">Sideways</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="response">4. Why is Minecraft the best game in the world? Discuss.</string>
+    <string name="emptyToast">The answer to this question cannot be empty.</string>
+    <string name="score1">Your score is</string>
+    <string name="score2">out of 4</string>
+</resources>

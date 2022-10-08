@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    Quiz questions provided by Frank, age 8-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/Brown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/character" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/zombie"
+                style="@style/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zombie" />
+
+            <RadioButton
+                android:id="@+id/creeper"
+                style="@style/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/creeper" />
+
+            <RadioButton
+                android:id="@+id/villager"
+                style="@style/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/villager" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/LightBrown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mine" />
+
+        <CheckBox
+            android:id="@+id/answer1"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diamonds" />
+
+        <CheckBox
+            android:id="@+id/answer2"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gold" />
+
+        <CheckBox
+            android:id="@+id/answer3"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emeralds" />
+
+        <TextView
+            style="@style/Brown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dig" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sideways"
+                style="@style/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sideways" />
+
+            <RadioButton
+                android:id="@+id/down"
+                style="@style/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/down" />
+
+            <RadioButton
+                android:id="@+id/up"
+                style="@style/RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/up" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/LightBrown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/response" />
+
+        <EditText
+            android:id="@+id/text_response"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submitQuiz"
+            android:text="Submit Quiz" />
+
+    </LinearLayout>
+
+
+</ScrollView>
